@@ -1,0 +1,103 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0; /* soft bakery feel */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container with border */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 12px solid #d4a373; /* warm brown border */
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #6b4226; /* bakery brown */
+  border-bottom: 12px solid #d4a373;
+  padding-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #d17b49;
+  text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+  color: #6b4226;
+  border-bottom: 12px solid #d17b49;
+}
+
+/* Info sections */
+.info-box {
+  border: 1px solid #d4a373;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 9px;
+  background-color: #fff3e6;
+  transition: box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border: 12px solid #d4a373;
+  border-radius: 9px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #d4a373;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #6b4226;
+  color: #fff3e6;
+}
+
+.container {
+  border-top: 12px solid #d4a373;   /* thick top border */
+  border-bottom: 12px solid #d4a373; /* thick bottom border */
+  border-left: 2px solid #d4a373;   /* thinner sides */
+  border-right: 2px solid #d4a373;
+}
+
+body {
+  border-top: 20px solid #d4a373;
+  border-bottom: 20px solid #d4a373;
+    border-left: 4px solid #d4a373;
+    border-right: 4px solid #d4a373;
+}   
+
+img {
+  width: 200px;   /* set desired width */
+  height: auto;   /* keeps proportions */
+}
